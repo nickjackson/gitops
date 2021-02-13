@@ -4,7 +4,6 @@ kind: Service
 metadata:
   name: hello-world
 spec:
-  type: LoadBalancer
   ports:
   - port: 80
     targetPort: 8080
